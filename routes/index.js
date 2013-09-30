@@ -8,7 +8,7 @@
 exports.index = function(req, res){
 
        function  say(world){
-           console.log("hi"+world)
+           console.log("woshiyige tianai"+world)
        }
 
     function excute(a,b){
