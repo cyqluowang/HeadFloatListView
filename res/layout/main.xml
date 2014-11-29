@@ -11,7 +11,7 @@
         android:fadingEdge="none" />
 
     <include
-        android:id="@+id/bottombar"
+        android:id="@+id/headbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:visibility="visible"

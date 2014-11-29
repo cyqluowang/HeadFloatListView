@@ -21,8 +21,8 @@ public class MainActivity extends Activity {
         Log.e("--->", getSDPath());
         mBottomFloatListView = (HeadFloatListView)findViewById(R.id.listView)  ;
         mBottomFloatListView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1,getData()));
-        ViewGroup bottomView = (ViewGroup)findViewById(R.id.bottombar) ;
-        mBottomFloatListView.setHeadBar(bottomView);
+        ViewGroup headView = (ViewGroup)findViewById(R.id.headbar) ;
+        mBottomFloatListView.setHeadBar(headView);
     }
 
     private List<String> getData(){
